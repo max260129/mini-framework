@@ -1,4 +1,4 @@
-# Documentation du Framework MonFramework
+# Documentation du Framework mini-framework
 ## Introduction
 
 Le Framework MonFramework est un framework JavaScript développé pour abstraire le DOM, gérer l'état de l'application, gérer les événements et fournir un système de routage. Ce framework vise à faciliter le développement d'applications Web en fournissant une structure et des fonctionnalités de base.
@@ -63,4 +63,4 @@ function incrementCounter() {
 
 ## Exemples de projet TodoMVC
 
-Le projet TodoMVC est un exemple de projet créé en utilisant le framework MonFramework. Vous pouvez trouver des exemples complets de projet TodoM
+Le projet TodoMVC est un exemple de projet créé en utilisant le framework mini-framework. Vous pouvez trouver des exemples complets de projet TodoM
