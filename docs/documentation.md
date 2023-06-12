@@ -7,13 +7,13 @@ Le Framework MonFramework est un framework JavaScript développé pour abstraire
 
 Le framework MonFramework implémente les fonctionnalités suivantes :
 
-    1. **Abstraction du DOM** : Le framework fournit une abstraction du DOM pour simplifier la création et la manipulation d'éléments du DOM. La fonction createElement permet de créer facilement des éléments avec des attributs et des enfants.
+1. **Abstraction du DOM** : Le framework fournit une abstraction du DOM pour simplifier la création et la manipulation d'éléments du DOM. La fonction createElement permet de créer facilement des éléments avec des attributs et des enfants.
 
-    2. **Système de routage** : Le framework comprend un système de routage qui synchronise l'état de l'application avec l'URL. Il permet de définir des routes et des actions à effectuer lorsque l'URL change.
+2. **Système de routage** : Le framework comprend un système de routage qui synchronise l'état de l'application avec l'URL. Il permet de définir des routes et des actions à effectuer lorsque l'URL change.
 
-    3. **Gestion de l'état** : Le framework fournit un objet Store pour gérer l'état de l'application. Il permet de lire et de modifier l'état global de l'application de manière centralisée.
+3. **Gestion de l'état** : Le framework fournit un objet Store pour gérer l'état de l'application. Il permet de lire et de modifier l'état global de l'application de manière centralisée.
 
-    4. **Gestion des événements** : Le framework offre une fonctionnalité de gestion des événements qui permet d'ajouter des écouteurs d'événements aux éléments du DOM de manière simplifiée.
+4. **Gestion des événements** : Le framework offre une fonctionnalité de gestion des événements qui permet d'ajouter des écouteurs d'événements aux éléments du DOM de manière simplifiée.
 
 ## Utilisation du Framework MonFramework
 
