@@ -1,0 +1,7 @@
+{
+    "server": {
+      "baseDir": "./todo-app",
+      "index": "index.html"
+    }
+  }
+  
