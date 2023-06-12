@@ -1,5 +1,5 @@
-Documentation du Framework MonFramework
-Introduction
+# Documentation du Framework MonFramework
+## Introduction
 
 Le Framework MonFramework est un framework JavaScript développé pour abstraire le DOM, gérer l'état de l'application, gérer les événements et fournir un système de routage. Ce framework vise à faciliter le développement d'applications Web en fournissant une structure et des fonctionnalités de base.
 Fonctionnalités
