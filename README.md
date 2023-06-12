@@ -22,7 +22,7 @@ git clone https://zone01normandie.org/git/max92/mini-framework.git
 
 2. Accédez au dossier du projet :
 ```
-cd mon-projet-framework
+cd mini-framework
 ```
 
 3. Installez les dépendances :
