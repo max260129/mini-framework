@@ -11,7 +11,7 @@ Mon Framework est un framework JavaScript minimaliste pour la création d'applic
 
 ## Documentation
 
-Consultez le fichier [documentation.md](/docs/documentation.md) pour plus d'informations sur l'utilisation de ce framework, des exemples de code et des explications détaillées sur chaque fonctionnalité.
+Consultez le fichier [documentation.md](https://zone01normandie.org/git/max92/mini-framework/src/branch/master/docs/documentation.md) pour plus d'informations sur l'utilisation de ce framework, des exemples de code et des explications détaillées sur chaque fonctionnalité.
 
 ## Installation
 
