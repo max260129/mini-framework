@@ -53,12 +53,12 @@ function handlePage() {
 ```
 5. **Gestion de l'état de l'application** : Utilisez l'objet Store pour gérer l'état global de votre application.
 ```
-    Store.setState({ counter: 0 });
+Store.setState({ counter: 0 });
 
-    function incrementCounter() {
-        const currentState = Store.getState();
-        Store.setState({ counter: currentState.counter + 1 });
-    }
+function incrementCounter() {
+    const currentState = Store.getState();
+    Store.setState({ counter: currentState.counter + 1 });
+}
 ```
 
 ## Exemples de projet TodoMVC
