@@ -19,18 +19,15 @@ Le framework MonFramework implémente les fonctionnalités suivantes :
 
 Pour commencer à utiliser le framework MonFramework, vous pouvez suivre les étapes suivantes :
 
-    Installation : Clonez le projet depuis le dépôt GitHub du framework MonFramework et incluez les fichiers JavaScript dans votre projet.
+1. **Installation** : Clonez le projet depuis le dépôt GitHub du framework MonFramework et incluez les fichiers JavaScript dans votre projet.
 
-    Importation : Importez les fonctionnalités nécessaires dans votre fichier JavaScript principal.
-
-    javascript
-
+2. **Importation** : Importez les fonctionnalités nécessaires dans votre fichier JavaScript principal.
+```
 import { createElement, Router, Store } from 'mon-framework';
+```
 
-Création d'éléments du DOM : Utilisez la fonction createElement pour créer des éléments du DOM de manière simple et concise.
-
-javascript
-
+3. **Création d'éléments du DOM** : Utilisez la fonction createElement pour créer des éléments du DOM de manière simple et concise.
+```
 const myElement = createElement('div', { class: 'my-class' }, [
     'Contenu de l\'élément',
     createElement('button', { events: { click: handleClick } }, 'Cliquez ici')
@@ -39,11 +36,10 @@ const myElement = createElement('div', { class: 'my-class' }, [
 function handleClick() {
     // Gestionnaire d'événement pour le bouton
 }
+```
 
-Définition des routes : Utilisez l'objet Router pour définir des routes et des actions à effectuer lorsque l'URL change.
-
-javascript
-
+4. **Définition des routes** : Utilisez l'objet Router pour définir des routes et des actions à effectuer lorsque l'URL change.
+```
 Router.addRoute('/', handleHome);
 Router.addRoute('/page', handlePage);
 
@@ -54,18 +50,17 @@ function handleHome() {
 function handlePage() {
     // Action à effectuer lorsque l'URL est '/page'
 }
-
-Gestion de l'état de l'application : Utilisez l'objet Store pour gérer l'état global de votre application.
-
-javascript
-
+```
+5. **Gestion de l'état de l'application** : Utilisez l'objet Store pour gérer l'état global de votre application.
+```
     Store.setState({ counter: 0 });
 
     function incrementCounter() {
         const currentState = Store.getState();
         Store.setState({ counter: currentState.counter + 1 });
     }
+```
 
-Exemples de projet TodoMVC
+## Exemples de projet TodoMVC
 
 Le projet TodoMVC est un exemple de projet créé en utilisant le framework MonFramework. Vous pouvez trouver des exemples complets de projet TodoM
