@@ -63,4 +63,4 @@ function incrementCounter() {
 
 ## Exemples de projet TodoMVC
 
-Le projet TodoMVC est un exemple de projet créé en utilisant le framework mini-framework. Vous pouvez trouver des exemples complets de projet TodoM
+Le projet [todo-app.md](https://zone01normandie.org/git/max92/mini-framework/src/branch/master/docs/todo-app.md) est un exemple de projet créé en utilisant le framework mini-framework. Vous pouvez trouver des exemples complets de projet TodoM
