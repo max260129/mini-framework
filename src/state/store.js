@@ -1,13 +1,30 @@
-const Store = {
-    state: {},
-
-    getState: function() {
-        return this.state;
-    },
-
-    setState: function(newState) {
-        this.state = {...this.state, ...newState};
+export class Store {
+    constructor(initialState = {}) {
+      this.state = initialState;
+      this.listeners = [];
     }
-};
-
-export { Store };
+  
+    getState() {
+      return this.state;
+    }
+  
+    setState(newState) {
+      this.state = { ...this.state, ...newState };
+      this.notifyListeners();
+    }
+  
+    subscribe(listener) {
+      this.listeners.push(listener);
+    }
+  
+    unsubscribe(listener) {
+      this.listeners = this.listeners.filter((l) => l !== listener);
+    }
+  
+    notifyListeners() {
+      this.listeners.forEach((listener) => {
+        listener(this.state);
+      });
+    }
+  }
+  

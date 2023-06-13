@@ -1,7 +1,18 @@
 {
-    "server": {
-      "baseDir": "./todo-app",
-      "index": "index.html"
+  "server": {
+    "baseDir": "./",
+    "routes": {
+      "/node_modules": "node_modules"
+    },
+    "middleware": {
+      "1": {
+        "route": "/js",
+        "handle": {
+          "path": "./js",
+          "index": "index.js",
+          "mimeType": "application/javascript"
+        }
+      }
     }
   }
-  
+}

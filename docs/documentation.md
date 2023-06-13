@@ -15,15 +15,15 @@ Le framework MonFramework implémente les fonctionnalités suivantes :
 
 4. **Gestion des événements** : Le framework offre une fonctionnalité de gestion des événements qui permet d'ajouter des écouteurs d'événements aux éléments du DOM de manière simplifiée.
 
-## Utilisation du Framework MonFramework
+## Utilisation du Framework mini-framework
 
-Pour commencer à utiliser le framework MonFramework, vous pouvez suivre les étapes suivantes :
+Pour commencer à utiliser le framework mini-framework, vous pouvez suivre les étapes suivantes :
 
 1. **Installation** : Clonez le projet depuis le dépôt GitHub du framework MonFramework et incluez les fichiers JavaScript dans votre projet.
 
 2. **Importation** : Importez les fonctionnalités nécessaires dans votre fichier JavaScript principal.
 ```
-import { createElement, Router, Store } from 'mon-framework';
+import { createElement, Router, Store } from 'mini-framework';
 ```
 
 3. **Création d'éléments du DOM** : Utilisez la fonction createElement pour créer des éléments du DOM de manière simple et concise.
