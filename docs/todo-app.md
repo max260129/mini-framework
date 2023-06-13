@@ -13,7 +13,7 @@ Cette application Todo est un exemple d'application de gestion de tâches réali
 1. Exécutez `npm start` pour démarrer l'application.
 2. Ouvrez votre navigateur et accédez à `http://localhost:3000` pour voir l'application.
 
-## Fonctionnalités
+## Fonctionnalités principal
 
 - **Tableau de bord**: L'application présente un tableau de bord avec des informations générales sur l'application.
 
