@@ -32,7 +32,7 @@ npm install
 
 ## Exemple de projet TodoMVC
 
-Un exemple de projet TodoMVC est disponible dans le dossier [examples/todomvc](/examples/todomvc). Ce projet utilise Mon Framework pour créer une application de gestion de tâches.
+Un exemple de projet TodoMVC est disponible dans le dossier [examples/todo-app](https://zone01normandie.org/git/max92/mini-framework/src/branch/master/docs/todo-app.md). Ce projet utilise Mon Framework pour créer une application de gestion de tâches.
 
 Pour exécuter l'exemple de projet TodoMVC, suivez les étapes suivantes :
 
