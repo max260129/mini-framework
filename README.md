@@ -1,4 +1,4 @@
-# Mon Framework
+# Mini-Framework
 
 Mini-framework est un framework JavaScript minimaliste pour la création d'applications web. Il met l'accent sur l'abstraction du DOM, la gestion de l'état, le système de routage et la gestion des événements. Ce framework a été créé dans le cadre d'un exercice pour développer nos compétences en développement web.
 
