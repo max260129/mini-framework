@@ -92,6 +92,36 @@ footer {
   font-size: 14px;
 }
 
+#all-button {
+  padding: 8px 16px;
+  background-color: #369ef4;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#active-button {
+  padding: 8px 16px;
+  background-color: #f46c36;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#completed-button {
+  padding: 8px 16px;
+  background-color: #cc22f7;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
 #task-count {
   font-style: italic;
   font-size: 12px;
